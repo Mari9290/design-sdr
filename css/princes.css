@@ -1,0 +1,17 @@
+.princes {
+    background-image: url(../img/princes/princes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.princes__container {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+.princes__par {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 0 0 4px #FFF;
+}

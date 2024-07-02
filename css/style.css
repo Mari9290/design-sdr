@@ -1,5 +1,9 @@
 @import url(normalize.css);
 @import url(header.css);
+@import url(mom.css);
+@import url(princes.css);
+@import url(star.css);
+@import url(sdr.css);
 
 
 /* @font-face {
@@ -8,9 +12,9 @@
     src: url(../fonts/Ubuntu-Regular.woff) format("woff");
     font-weight: 400;
     font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: Ubuntu;
     src: local(Ubuntu-Light), url(../fonts/Ubuntu-Light.woff2) format("woff");
     src: url(../fonts/Ubuntu-Light.woff) format("woff");
@@ -30,8 +34,7 @@ box-sizing: inherit;
 }
 
 body {
-    background-color: #F5F5F5;
-    /* font-family: Ubuntu, sans-serif; */
+    background-color: #fff;
     font-size: 14px;
     font-weight: 400;
     color: #000000;
@@ -97,5 +100,6 @@ iframe {
 section, aside, header {
     padding: 50px 0;
 }
+
 
 
