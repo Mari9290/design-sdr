@@ -1,0 +1,43 @@
+.header {
+    background-color: #68F455;
+    position: relative;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__figure-sam {
+    margin-bottom: -10px;
+}
+
+.header__figure-kreat {
+    align-self: flex-start;
+    margin-bottom: -30px;
+}
+
+.header__figure-design {
+    align-self: flex-end;
+}
+
+.header__circle {
+    position: absolute;
+    z-index: 0;
+    top: 80px;
+}
+
+.header__figure {
+    position: relative;
+    z-index: 1;
+}
+
+.header__par {
+    color: #D92C26;
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: flex-start;
+    text-shadow: 0 0 3px #F10D58, 0 0 7px #4578D5;
+}
