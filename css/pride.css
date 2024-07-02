@@ -1,0 +1,12 @@
+.pride__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+}
+
+.pride {
+    background: rgb(156,138,246);
+    background: linear-gradient(90deg, rgba(156,138,246,1) 0%, rgba(228,227,245,1) 100%);
+}
+

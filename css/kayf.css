@@ -1,0 +1,21 @@
+.kayf__contaiher {
+    position: relative;
+}
+
+.kayf__img {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    bottom: 20%;
+}
+
+.kayf__header {
+    color: #625050;
+    font-size: 28px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 0 4px #BCFC60;
+    white-space: pre-line;
+    line-height: 1.8;
+}
