@@ -1,5 +1,17 @@
 .mom__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mom__figure {
+    width: 100%;
+}
+
+.mom__img {
+    width: 100%;
 }
 
