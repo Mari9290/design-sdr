@@ -8,23 +8,8 @@
 @import url(styl.css);
 @import url(kayf.css);
 @import url(clay.css);
+@import url(footer.css);
 
-
-/* @font-face {
-    font-family: Ubuntu;
-    src: local(Ubuntu-Regular), url(../fonts/Ubuntu-Regular.woff2) format("woff2");
-    src: url(../fonts/Ubuntu-Regular.woff) format("woff");
-    font-weight: 400;
-    font-display: swap;
-} */
-
-/* @font-face {
-    font-family: Ubuntu;
-    src: local(Ubuntu-Light), url(../fonts/Ubuntu-Light.woff2) format("woff");
-    src: url(../fonts/Ubuntu-Light.woff) format("woff");
-    font-weight: 300;
-    font-display: swap;
-} */
 
 html {
     position: relative;
@@ -99,9 +84,10 @@ iframe {
     max-width: 550px;
     padding: 0 30px;
     margin: 0 auto;
+    white-space: pre-line;
 }
 
-section, aside, header {
+section, aside, header, footer {
     padding: 50px 0;
 }
 

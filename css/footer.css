@@ -1,0 +1,12 @@
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__header {
+    font-size: 15px;
+    color: #D92C26;
+    text-shadow: 0 4px 4px #68F455;
+}
+
