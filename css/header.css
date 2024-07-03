@@ -1,6 +1,7 @@
 .header {
     background-color: #68F455;
     position: relative;
+    overflow: hidden;
 }
 
 .header__container {
@@ -12,16 +13,45 @@
 
 .header__figure-sam {
     margin-bottom: -10px;
+    transform: translateY(-150%);
+    animation: aniUp 1.5s forwards;
+    opacity: 0;
 }
 
 .header__figure-kreat {
     align-self: flex-start;
     margin-bottom: -30px;
+    transform: translateX(-150%);
+    animation: aniLeft 1.5s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+@keyframes aniUp {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateY(0);
+        opacity: 1;}
+}
+
+@keyframes aniLeft {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateX(0);
+        opacity: 1;}
 }
 
 .header__figure-design {
     align-self: flex-end;
     margin-bottom: 30px;
+    transform: translateX(+150%);
+    animation: aniRight 1.5s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+@keyframes aniRight {
+    0% {transform: translateX(+150%);}
+    100% {transform: translateX(0);
+        opacity: 1;}
 }
 
 .header__circle {
@@ -35,10 +65,25 @@
     z-index: 1;
 }
 
+.header__wrap {
+    display: inline;
+}
+
 .header__par {
     color: #D92C26;
     font-weight: bolder;
     font-size: 18px;
     align-self: flex-start;
     text-shadow: 0 0 3px #F10D58, 0 0 7px #4578D5;
+    overflow: hidden;
+    border-right: 2px solid orange;
+    width: 0;
+    animation: typing 1s steps(20, end) forwards;
+    animation-delay: 4.5s;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
 }
